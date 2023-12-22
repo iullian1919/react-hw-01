@@ -13,3 +13,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  width: 1440px;
+  margin: auto;
+}
+
+.sidebar {
+  background: #fefefe;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+  width: 200px;
+  padding: 8px 4px;
+
+}
+
+.sidebar li {
+  color: orange;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
